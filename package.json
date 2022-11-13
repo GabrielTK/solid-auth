@@ -1,0 +1,35 @@
+{
+  "name": "solid-auth",
+  "version": "1.0.0",
+  "description": "Making Auth easy for Solid.JS - inspired by NextAuth.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielTK/solid-auth.git"
+  },
+  "keywords": [
+    "solidjs",
+    "auth",
+    "oauth2",
+    "solid-start"
+  ],
+  "author": "GabrielTK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielTK/solid-auth/issues"
+  },
+  "homepage": "https://github.com/GabrielTK/solid-auth#readme",
+  "dependencies": {
+    "solid-js": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.3",
+    "vite-plugin-solid": "^2.4.0"
+  }
+}
